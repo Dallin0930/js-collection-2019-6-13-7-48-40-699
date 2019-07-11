@@ -1,7 +1,7 @@
 'use strict';
 
 function choose_even(collection) {
-    var array=new Array();
+    /* var array=new Array();
     for(var i=0;i<collection.length;i++)
     {
       if(collection[i]%2==0)
@@ -9,7 +9,8 @@ function choose_even(collection) {
            array.push(collection[i]);
       }
     }
-    return array;
+    return array; */            
+      return collection.filter(param=> param%2==0)
 }
 
 
