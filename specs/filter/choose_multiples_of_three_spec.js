@@ -9,7 +9,7 @@ describe('choose_multiples_of_three', function() {
   it('choose_multiples_of_three', function() {
 
     var result = choose_multiples_of_three(collection);
-
+    
     expect(result).toEqual([0, 3, 6, 9]);
   })
 });
